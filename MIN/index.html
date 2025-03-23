@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>阿閔與阿洳的抽籤</title>
+    <title>瘋狂抽抽樂</title>
     <style>
         body {
             font-family: 'Mochiy Pop One', sans-serif;
             text-align: center;
-            background: url('https://min19910123.github.io/MIN/background.jpg') no-repeat center center fixed;
+            background: url('background.jpg') no-repeat center center fixed;
             background-size: cover;
             padding: 50px;
             margin: 0;
@@ -135,7 +135,7 @@
 </head>
 <body>
     <div id="container">
-        <h1>阿閔與阿洳的抽籤</h1>
+        <h1>瘋狂抽抽樂</h1>
         <p>快來抽籤看看誰會被選中哦～</p>
         <button onclick="startDraw()">開始抽籤</button>
         <button onclick="startDraw()" id="reset-btn" style="display: none;">再來一次</button>
@@ -145,9 +145,9 @@
 
     <script>
         const options = [
-            { text: "阿閔", prob: 0.4, img: "https://min19910123.github.io/MIN/min.jpg" },
-            { text: "阿洳", prob: 0.4, img: "https://min19910123.github.io/MIN/ru.jpg" },
-            { text: "都阿洳做", prob: 0.2, img: "https://min19910123.github.io/MIN/all_ru.jpg" }
+            { text: "阿閔", prob: 0.4, img: "min.jpg" },
+            { text: "阿洳", prob: 0.4, img: "ru.jpg" },
+            { text: "一起做", prob: 0.2, img: "all_ru.jpg" }
         ];
         let isDrawing = false;
         let drawCount = 0;
